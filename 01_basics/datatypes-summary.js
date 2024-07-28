@@ -12,7 +12,8 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+
+console.log(id === anotherId); //here it gives the answer false becoz the return type of symbol which treat both as diffrent.
 
 // const bigNumber = 3456543576654356754n
 
